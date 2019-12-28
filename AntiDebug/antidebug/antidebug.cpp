@@ -4,7 +4,6 @@
 #include "stdafx.h"
 #include "pch.h"
 
-// note: templated version of this function is in Common.h
 VOID exec_check(int(*callback)(), const TCHAR* szMsg)
 {
 	const TCHAR* format = TEXT("[+] %s\n");
