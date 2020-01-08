@@ -36,7 +36,7 @@ int CheckSandboxes(){
 
 
 
-// check if the number of processor is odd
+// check if the number of processors is odd
 int OddNumberOfProcessors(){
 #if defined (ENV64BIT)
 	int leng_exec = 31;
